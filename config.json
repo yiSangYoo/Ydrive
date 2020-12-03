@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "유이상"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n\u0027춘천 맛집\u0027으로 검색한 결과 언급된 식당들을 모았습니다.\n\u003c/p\u003e\n\n\u003cp\u003e\n언급 수가 많을 수록 노드(원)의 크기가 커집니다.\n\u003c/p\u003e\n\n\u003cp\u003e\n춘천의 지역별로 색깔을 다르게 적용했습니다.\n\u003c/p\u003e",
+    "intro": "춘천 맛집에 대한 데이터를 모아서 시각화한 자료입니다.\n(NAVER, Instagram, 한림대 에브리타임)",
+    "title": "춘천맛집 TOP100"
+  },
+  "legend": {
+    "edgeLabel": "언급 수",
+    "colorLabel": "지역별",
+    "nodeLabel": "식당/SNS"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "읍면동",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
